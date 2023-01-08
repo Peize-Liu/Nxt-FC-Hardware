@@ -12,15 +12,18 @@ _autosave-*
 *.tmp
 *-save.pro
 *-save.kicad_pcb
-fp-info-cache
+/NxtPX4/fp-info-cache
+/NxtPX4/NxtPX4-backups/*.*
 
 # Netlist files (exported from Eeschema)
-*.net
+/NxtPX4/*.net
 
 # Autorouter files (exported from Pcbnew)
-*.dsn
-*.ses
+/NxtPX4/*.dsn
+/NxtPX4/*.ses
 
 # Exported BOM files
-*.xml
-*.csv
+/NxtPX4/production/*.xml
+/NxtPX4/production/*.csv
+
+*.DS_Store
