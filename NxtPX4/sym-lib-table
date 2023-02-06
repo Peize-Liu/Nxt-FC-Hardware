@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name "NxtPX4_Symbol")(type "KiCad")(uri "${KIPRJMOD}/project_lib/NxtPX4_Symbol.kicad_sym")(options "")(descr ""))
-)
