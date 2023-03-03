@@ -2,6 +2,7 @@
 # Format documentation: http://kicad-pcb.org/help/file-formats/
 
 # Temporary files
+*.attrs
 *.000
 *.bak
 *.bck
@@ -12,18 +13,30 @@ _autosave-*
 *.tmp
 *-save.pro
 *-save.kicad_pcb
-/NxtPX4/fp-info-cache
-/NxtPX4/NxtPX4-backups/*.*
+*fp-info-cache
+
+/NxtPX4_Pro_v1.00_Release/fp-info-cache
+/NxtPX4_Pro_v1.00_Release/NxtPX4-backups/*.*
+/NxtPX4_v1.0_Release/fp-info-cache
+/NxtPX4_v1.0_Release/NxtPX4-backups/*.*
 
 # Netlist files (exported from Eeschema)
-/NxtPX4/*.net
+/NxtPX4_v1.0_Release/*.net
 
 # Autorouter files (exported from Pcbnew)
-/NxtPX4/*.dsn
-/NxtPX4/*.ses
+/NxtPX4_v1.0_Release/*.dsn
+/NxtPX4_v1.0_Release/*.ses
+/Backup
 
+
+/NxtPX4_V1.0_Release/NxtPX4-backups
+/NxtPX4_V1.0_Release/panel-backups
+/NxtPX4_V1.0_Release/SCH_backup
+
+/NxtPX4_Pro_V1.00_Release/NxtPX4-backups
+/NxtPX4_Pro_V1.00_Release/panel-backups
+/NxtPX4_Pro_V1.00_Release/SCH_backup
 # Exported BOM files
-/NxtPX4/production/*.xml
-/NxtPX4/production/*.csv
 
+/.vscode
 *.DS_Store
