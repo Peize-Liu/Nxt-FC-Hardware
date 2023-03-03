@@ -31,14 +31,9 @@ _autosave-*
 /NxtPX4_v1.0_Release/*.ses
 /Backup
 
-
-/NxtPX4_V1.0_Release/NxtPX4-backups
-/NxtPX4_V1.0_Release/panel-backups
-/NxtPX4_V1.0_Release/SCH_backup
-
-/NxtPX4_Pro_V1.00_Release/NxtPX4-backups
-/NxtPX4_Pro_V1.00_Release/panel-backups
-/NxtPX4_Pro_V1.00_Release/SCH_backup
+/*/NxtPX4-backups
+/*/panel-backups
+/*/SCH_backup
 # Exported BOM files
 
 /.vscode
