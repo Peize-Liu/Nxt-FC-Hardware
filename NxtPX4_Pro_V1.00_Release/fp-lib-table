@@ -1,3 +1,0 @@
-(fp_lib_table
-  (lib (name "NxtPX4")(type "KiCad")(uri "${KIPRJMOD}/project_lib/NxtPX4.pretty")(options "")(descr ""))
-)

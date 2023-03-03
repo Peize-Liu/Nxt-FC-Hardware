@@ -7,6 +7,9 @@
 *.bak
 *.bck
 *.kicad_pcb-bak
+*.kicad_sch-bak
+*fp-lib-table
+*sym-lib-table
 *.sch-bak
 *~
 _autosave-*
