@@ -17,23 +17,24 @@ _autosave-*
 *-save.pro
 *-save.kicad_pcb
 *fp-info-cache
+*.kicad_prl
 
-/NxtPX4_Pro_v1.00_Release/fp-info-cache
-/NxtPX4_Pro_v1.00_Release/NxtPX4-backups/*.*
-/NxtPX4_v1.0_Release/fp-info-cache
-/NxtPX4_v1.0_Release/NxtPX4-backups/*.*
-
-# Netlist files (exported from Eeschema)
-/NxtPX4_v1.0_Release/*.net
-
-# Autorouter files (exported from Pcbnew)
-/NxtPX4_v1.0_Release/*.dsn
-/NxtPX4_v1.0_Release/*.ses
-/Backup
-
+**/fp-info-cache
 /*/NxtPX4-backups
 /*/panel-backups
 /*/SCH_backup
+# **/NxtPX4-backups/*.*
+# **/fp-info-cache
+# **/NxtPX4-backups/*.*
+
+# Netlist files (exported from Eeschema)
+**/*.net
+
+# Autorouter files (exported from Pcbnew)
+**/*.dsn
+**/*.ses
+/Backup
+
 # Exported BOM files
 
 /.vscode

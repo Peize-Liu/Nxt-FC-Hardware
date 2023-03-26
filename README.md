@@ -1,8 +1,8 @@
 # NxtPX4-Hardware
 
-![1677841709941](image/README/1677841709941.png)
+![1677841709941](NxtPX4_Pro_V1.1.0_Power_modify_JLC/NxtPX4_front.png)
 
-![1677841748797](image/README/1677841748797.png)
+![1677841748797](NxtPX4_Pro_V1.1.0_Power_modify_JLC/NxtPX4_back.png)
 
 Hardware design for NxPX4
 
